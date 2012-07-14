@@ -1,0 +1,23 @@
+
+material stoneV
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0.072 0.072 0.072 1 27
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture vert.tga
+			}
+		}
+
+	}
+
+}
+
+

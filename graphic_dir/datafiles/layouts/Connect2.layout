@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Connect" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="TaharezLook/FrameWindow" Name="Connect/Container" >
+            <Property Name="Font" Value="DejaVuSans-10" />
+            <Property Name="TitlebarFont" Value="DejaVuSans-10" />
+            <Property Name="RollUpEnabled" Value="False" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.184766,0},{0.281771,0},{0.575391,0},{0.557813,0}}" />
+            <Window Type="TaharezLook/StaticText" Name="Connect/Container/text" >
+                <Property Name="Font" Value="DejaVuSans-10" />
+                <Property Name="Text" >Please, type the IP address of the server.
+</Property>
+                <Property Name="HorzExtent" Value="365" />
+                <Property Name="VertExtent" Value="19.8618" />
+                <Property Name="UnifiedAreaRect" Value="{{0.00804023,0},{0.0271925,0},{1.00176,0},{0.360527,0}}" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="Connect/Container/button" >
+                <Property Name="Font" Value="DejaVuSans-10" />
+                <Property Name="Text" Value="Connect" />
+                <Property Name="UnifiedAreaRect" Value="{{0.668594,0},{0.508772,0},{0.968594,0},{0.763489,0}}" />
+            </Window>
+            <Window Type="TaharezLook/Editbox" Name="Connect/Container/input" >
+                <Property Name="Font" Value="DejaVuSans-10" />
+                <Property Name="Text" Value="127.0.0.1" />
+                <Property Name="MaxTextLength" Value="15" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0366836,0},{0.507018,0},{0.586068,0},{0.743197,0}}" />
+                <Property Name="TextParsingEnabled" Value="False" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

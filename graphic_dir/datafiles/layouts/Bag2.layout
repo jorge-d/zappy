@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Bag" >
+        <Property Name="UnifiedAreaRect" Value="{{-0.0259887,0},{-0.00967126,0},{0.974012,0},{0.990329,0}}" />
+        <Window Type="OgreTray/FrameWindow" Name="Bag/Container" >
+            <Property Name="Text" Value="Inventory" />
+            <Property Name="Alpha" Value="0.85" />
+            <Property Name="CaptionFont" Value="DejaVuSans-10" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.257061,0},{0.187815,0},{0.600844,0},{0.712478,0}}" />
+            <Window Type="OgreTray/Group" Name="Bag/Container/GrpRe" >
+                <Property Name="Text" Value="Player&apos;s Name" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0257054,0},{0.00426844,0},{0.970316,0},{0.765323,0}}" />
+                <Window Type="OgreTray/StaticText" Name="Bag/Container/L" >
+                    <Property Name="Text" Value="Linemate" />
+                    <Property Name="HorzExtent" Value="67" />
+                    <Property Name="VertExtent" Value="13.3685" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.00554323,0},{-0.0159631,0},{0.502618,0},{0.255342,0}}" />
+                </Window>
+                <Window Type="OgreTray/StaticText" Name="Bag/Container/P" >
+                    <Property Name="Text" Value="Phiras" />
+                    <Property Name="HorzExtent" Value="45" />
+                    <Property Name="VertExtent" Value="13.3685" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.50464,0},{-0.0187549,0},{1.0128,0},{0.262648,0}}" />
+                </Window>
+                <Window Type="OgreTray/StaticText" Name="Bag/Container/T" >
+                    <Property Name="Text" Value="Thystame" />
+                    <Property Name="HorzExtent" Value="72" />
+                    <Property Name="VertExtent" Value="13.3685" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.503927,0},{0.246122,0},{1.01209,0},{0.51238,0}}" />
+                </Window>
+                <Window Type="OgreTray/StaticText" Name="Bag/Container/D" >
+                    <Property Name="Text" Value="Deraumêre" />
+                    <Property Name="HorzExtent" Value="84" />
+                    <Property Name="VertExtent" Value="13.3685" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.00902276,0},{0.249893,0},{0.499138,0},{0.511101,0}}" />
+                </Window>
+                <Window Type="OgreTray/StaticText" Name="Bag/Container/M" >
+                    <Property Name="Text" >Mendiane
+</Property>
+                    <Property Name="HorzExtent" Value="70" />
+                    <Property Name="VertExtent" Value="13.3685" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.503214,0},{0.490031,0},{1.01138,0},{0.756288,0}}" />
+                </Window>
+                <Window Type="OgreTray/StaticText" Name="Bag/Container/S" >
+                    <Property Name="Text" Value="Sibur" />
+                    <Property Name="HorzExtent" Value="39" />
+                    <Property Name="VertExtent" Value="13.3685" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.00477369,0},{0.49459,0},{0.503388,0},{0.760847,0}}" />
+                </Window>
+                <Window Type="OgreTray/StaticText" Name="Bag/Container/Lvl" >
+                    <Property Name="Text" Value="Level" />
+                    <Property Name="HorzExtent" Value="39" />
+                    <Property Name="VertExtent" Value="13.3685" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.0159249,0},{0.741499,0},{0.405249,0},{1.01744,0}}" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                </Window>
+            </Window>
+            <Window Type="OgreTray/Button" Name="Bag/Container/BtnFollow" >
+                <Property Name="Text" Value="Follow" />
+                <Property Name="UnifiedAreaRect" Value="{{0.118734,0},{0.802303,0},{0.480484,0},{0.960138,0}}" />
+            </Window>
+            <Window Type="OgreTray/Button" Name="Bag/Container/BtnClose" >
+                <Property Name="Text" Value="Close" />
+                <Property Name="UnifiedAreaRect" Value="{{0.523706,0},{0.804377,0},{0.885456,0},{0.962211,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>
